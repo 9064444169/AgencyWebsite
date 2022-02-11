@@ -203,3 +203,8 @@ aside#sidebar .contact input,aside#sidebar .contact textarea{
 .footer_1{
     color: rgb(138, 138, 59);
 }
+
+
+#services{
+    height: 600px;
+}
