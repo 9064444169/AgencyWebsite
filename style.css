@@ -127,11 +127,11 @@ article#main-col{
 }
 
 ul#services li{
-    list-style: none;
+     list-style: none;
     padding: 10px;
-    border:white solid 1px;
+    border:#cccccc solid 1px;
     margin-bottom: 5px;
-    background: aliceblue;
+    background:#e6e6e6;
 
 }
 
