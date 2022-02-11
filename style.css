@@ -1,0 +1,205 @@
+body{
+    font-size: 15px;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #35424a;
+    color: #ffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(138, 138, 59) 3px solid;
+}
+
+header a{
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+ 
+header nav{
+    float: right;
+    margin-top: -41px;
+}
+
+header .highlight{
+    color:rgb(138, 138, 59) ;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: bisque;
+    font-weight: bold;
+}
+
+#showcase{
+    min-height: 400px;
+    background: url("image.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 -500px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    height: 600px;
+}
+
+#boxes .box img{
+    width:250px;
+    border-radius: 10px;
+}
+
+footer{
+    padding: 15px;
+    margin-top: 20px;
+    color: aliceblue;
+    background-color: #35424a;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+  
+}
+
+article#main-col{
+    float: left;
+    width:65%;
+}
+
+.dark{
+    padding: 15px;
+    background: gray;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+ul#services li{
+    list-style: none;
+    padding: 10px;
+    border:white solid 1px;
+    margin-bottom: 5px;
+    background: aliceblue;
+
+}
+
+aside#sidebar .contact input,aside#sidebar .contact textarea{
+    width:90%;
+    padding:5px;
+    border-radius: 10px;
+}
+
+.button_1{
+    height: 30px;
+    background: darkblue;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border: 3px solid black;
+    border-radius: 11px;
+}
+.button_1:hover{
+    color: gray;
+}
+
+@media(max-width:768px){
+    header #branding,
+    header nav,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar
+     {
+        float: none;
+        text-align: center;
+        width:100%;
+    }
+    aside#sidebar{
+        margin-bottom: 120px;
+    }
+    header nav{
+        margin-top: 20px;
+    }
+
+    #showcase h1{
+        font-size: 25px;
+    }
+
+    #boxes .box:nth-child(3){
+        margin-bottom: 80px;
+    }
+}
+
+.wild{
+    font-size: 25px;
+    font-family:cursive;
+}
+.button_2{
+    background-color: darkblue;
+    color: white;
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+.button_2:hover{
+    color:yellowgreen;
+}
+
+.f1{
+    color: black;
+}
+
+.footer_1{
+    color: rgb(138, 138, 59);
+}
